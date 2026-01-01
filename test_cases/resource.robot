@@ -7,8 +7,8 @@ Documentation     A resource file with reusable keywords and variables.
 Library           SeleniumLibrary
 
 *** Variables ***
-${CHROME_BROWSER_PATH}    ${EXECDIR}${/}chrome-mac-arm64${/}Google Chrome for Testing.app${/}Contents${/}MacOS${/}Google Chrome for Testing
-${CHROME_DRIVER_PATH}     ${EXECDIR}${/}chromedriver-mac-arm64${/}chromedriver
+${CHROME_BROWSER_PATH}    ${EXECDIR}${/}ChromeForTesting${/}chrome.exe 
+${CHROME_DRIVER_PATH}   ${EXECDIR}${/}ChromeForTesting${/}chromedriver.exe 
 ${SERVER}         localhost:7272
 ${BROWSER}        Chrome
 ${DELAY}          0
